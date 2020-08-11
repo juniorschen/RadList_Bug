@@ -18,7 +18,7 @@
   "private": true,
   "dependencies": {
     "@nativescript/angular": "~10.0.0",
-    "@nativescript/core": "rc",
+    "@nativescript/core": "7.0.0-rc.49",
     "@nativescript/theme": "~2.2.1",
     "reflect-metadata": "~0.1.12",
     "tslib": "^2.0.0",

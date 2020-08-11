@@ -1,4 +1,4 @@
-<Tabs selectedIndex="0">
+<!-- <Tabs selectedIndex="0">
     <TabStrip style="height: 30dp;">
         <TabStripItem>
             <Label text="Produtos"></Label>
@@ -6,20 +6,22 @@
     </TabStrip>
 
     <TabContentItem>
-        <GridLayout tkExampleTitle tkToggleNavButton>
-            <RadListView orientation="Horizontal" [items]="items">
-                <ListViewLinearLayout tkListViewLayout scrollDirection="Horizontal" spanCount="2">
-                </ListViewLinearLayout>
-                <ng-template let-item="item">
-                    <GridLayout rows="auto, 70, auto" columns="120" class="layout-border">
-                        <Image row="0" col="0" src="{{ item.imageSrc }}" width="120" height="100" stretch="aspectFill">
-                        </Image>
-                        <Label row="1" col="0" text="{{ item.desc }}" textWrap="true"></Label>
-                        <Label row="2" col="0" text="{{ item.price }}" textWrap="true"></Label>
-                    </GridLayout>
-                </ng-template>
-            </RadListView>
-        </GridLayout>
+        
     </TabContentItem>
 
-</Tabs>
+</Tabs> -->
+<!-- <GridLayout tkExampleTitle tkToggleNavButton>
+    <RadListView orientation="Horizontal" [items]="items">
+        <ListViewLinearLayout tkListViewLayout scrollDirection="Horizontal" spanCount="2">
+        </ListViewLinearLayout>
+        <ng-template let-item="item">
+            <GridLayout rows="auto, 70, auto" columns="120" class="layout-border">
+                <Image row="0" col="0" src="{{ item.imageSrc }}" width="120" height="100" stretch="aspectFill">
+                </Image>
+                <Label row="1" col="0" text="{{ item.desc }}" textWrap="true"></Label>
+                <Label row="2" col="0" text="{{ item.price }}" textWrap="true"></Label>
+            </GridLayout>
+        </ng-template>
+    </RadListView>
+</GridLayout> -->
+<page-router-outlet></page-router-outlet>
